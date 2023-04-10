@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+}
+
+.link-header {
+    padding-right: 32px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    line-height: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+}
+
+.link-header:active {
+    color: purple;
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6FBF60;
+}
+
+button:active {
+    background: #6FBF70;
+}
+
+img {
+    margin-left: 121px;
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 97px;
+}
+
+h1 {
+    font-size: 62px;
+    line-height: 82px;
+    font-weight: 700px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+}
+
+p {
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin: 47px 0 55px 0;
+}
+
+.link-learn-more {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.link-learn-more:hover {
+    text-decoration: underline;
+}
+
+.link-learn-more:active {
+    color: purple;
+}
+
+
+@media screen and (max-width: 600px) {
+    .link-header {
+        display: none;
+    }
+
+    header{
+        margin: 17px 0 76px 0;
+    }
+
+    button{
+        position: fixed;
+        top: 17px;
+        right: 15px;
+    }
+
+   /* div{
+        display: block;
+        
+    } */
+
+    img{
+        width: 310px;
+        height: 290px;
+        position: fixed;
+        bottom: 112px;
+    }
+
+    h1{
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 76px 55px 29px 55px;
+    }
+
+    p{
+        text-align: center;
+        width: 304px;
+        height: 135px;
+        font-size: 18px;
+        margin: 29px 43px 26px;
+    }
+
+    .link-learn-more{
+        margin: 0 140px;
+    }
+
+}
